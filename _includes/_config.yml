@@ -1,0 +1,15 @@
+name: Chocolate Tin
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+github: adelsmee.github.io
+url: chocolatetin.org
+author:
+  asmee:
+    display_name: Adel Smee
+    email: adel.smee@lonelyplanet.com.au
+    web: https://coderwall.com/adelsmee
+    twitter: adelsmee
+    github: adelsmee
+    gravatar: 75d57f214bf9b9e8f57e4b2cf473a340

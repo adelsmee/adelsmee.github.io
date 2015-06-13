@@ -1,0 +1,15 @@
+---
+layout : post
+title : The Chocolate Tin
+author: asmee
+---
+
+At home I have a chocolate tin. It accomodates my obsession for buying every chocolate bar I see that I haven't tasted yet. Of course I have standards - I prefer dark chocolate but I will buy milk or white assuming it has been made with cocoa butter and not some random vegetable fat. I don't actually eat that much chocolate, maybe a square or two a day, unless we are talking about Whittakers Dark Almond, I'll go a whole row of that. But I love sharing it with people and telling stories about the different chocolates. It's one of the things that makes me happy.
+
+So when I started a new job a couple of years ago I lasted a week before my pavlovian drooling at afternoon tea time inspired me to bring my backup tin to work. I couldn't just sit there and eat chocolate in front of my work mates so figured I'd just put the tin on the communal table and see what happened.
+
+At first they were shy and didn't understand the rules (we are computer programmers, we love knowing the rules), but after a teensy bit of encouragement they started eating chocolate (which is the only rule - go on, try a piece). Three years in I think we've only had a day or two where the tin has been empty. I buy a bit of chocolate, but the tin has a magnetic power of its own and attracts chocolate from people in the office and all over the world. It also gives us something to talk about that isn't as boring or scary as technology when people from other parts of the business stop by to chat. It gets a lot of us through the mid-afternoon slump or provides a break from heavy thinking. And is a crucial addition to any meeting.
+
+This got me thinking about the brilliant people I work with and how they all have their own ways of bringing a little authentic piece of themselves to work and making the place a little brighter. Some are more food focused - bake sales, restaurant recommendations, recipes. Others are activity based and organise yoga classes, table tennis competitions and soccer tournaments. Some bring great travel advice, a wicked sense of humour or top shelf swearing ability. We've even had a team member buy a beer fridge and another who hand delivered fresh fruit on a weekly basis.
+
+None of this falls under any KPI or is aligned with the corporate vision or increases revenue. But they all make the place I work a delightful place to come every day and for me that has value. So what is your chocolate tin?
