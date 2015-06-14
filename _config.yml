@@ -1,0 +1,13 @@
+name: Chocolate Tin
+markdown: redcarpet
+highlighter: pygments
+safe: true
+lsi: false
+github: github/adelsmeeå
+url: chocolatetin.org
+author:
+  display_name: Adel Smee
+  web: https://coderwall.com/adelsmee
+  twitter: adelsmee
+  github: adelsmee
+  gravatar: 75d57f214bf9b9e8f57e4b2cf473a340

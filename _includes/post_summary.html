@@ -1,0 +1,15 @@
+        {% assign author = site.author %}
+        <section>
+
+          <div class="post_title">
+            <a href="{{ site.baseurl }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
+          </div>
+          <div class="post_content">
+            <p>{{ post.excerpt }}</p>
+          </div>
+          <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+
+          <div class="published_date">
+            <span class="modified_on">{{ post.date | date_to_string }}</span> by <span class="modified_by">{{ author.display_name }}</span>
+          </div>
+        </section>
