@@ -261,7 +261,8 @@ a.name {
 header ul {
   list-style:none;
   padding:0;
-  line-height: 25px
+  line-height: 25px;
+  clear: both;
 }
 
 header li {
@@ -275,30 +276,20 @@ header li a {
 }
 
 a.github {
-	background: url(../images/octocat-small.png) no-repeat 1px;
-  height: 25px;
+	background: url(../images/octocat.png) no-repeat 1px;
 }
 
 a.twitter {
   background: url(../images/twitter.png) no-repeat 1px;
-  height: 25px;
 }
 
 a.facebook {
   background: url(../images/facebook.png) no-repeat 1px;
-  height: 25px;
 }
 
 a.tumblr {
   background: url(../images/tumblr.png) no-repeat 1px;
-  height: 25px;
 }
-
-a.buttons:hover {
-	color: #fff;
-	text-decoration: none;
-}
-
 
 /* Section - for main page content */
 
