@@ -2,10 +2,9 @@
 layout : post
 title : Nice Pair - Pair Programming Archetypes
 excerpt: What kind of pair programmer are you?
-author: asmee
 ---
 
-*The post first appeared on the [Lonely Planet Engineering](http://engineering.lonelyplanet.com/2013/08/09/Nice-Pair---Pair-Programming-Archetypes.html) Blog*
+*This post first appeared on the [Lonely Planet Engineering](http://engineering.lonelyplanet.com/2013/08/09/Nice-Pair---Pair-Programming-Archetypes.html) Blog*
 
 ###### What kind of pair programmer are you?
 
