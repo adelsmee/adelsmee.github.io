@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Chocolate Tin</title>
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/github-light.css">
+    <script src="/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo"><a href="/"><img src='/images/chocolate-tin.png' alt='hot chocolate logo'/></a></div>
+        <p class="header">Musings, rants and questions about happiness at work.</p>
+        <p class="gravatar">
+          <img src="http://www.gravatar.com/avatar/75d57f214bf9b9e8f57e4b2cf473a340" />
+        </p>
+        <ul>
+          <li>
+            <a class="github" href="https://github.com/adelsmee"></a>
+          </li>
+          <li>
+            <a class="twitter" href="http://twitter.com/adelsmee"></a>
+          </li>
+          <li>
+            <a class="tumblr" href="http://pearshapedrecipes.tumblr.com"></a>
+          </li>
+        </ul>
+      </header>
+
+  <section class="post">
+  <div>
+    <h1>How To Pass A Coding Test</h1>
+  </div>
+  <p><em>This post first appeared on the <a href="http://engineering.lonelyplanet.com/2014/07/28/How-To-Pass-A-Coding-Test.html">Lonely Planet Engineering</a> Blog</em></p>
+
+<p>Like a lot of developers one of the things I do at work is review coding tests. By my rough calculations 85% of potential hires are eliminated at this stage of the hiring process. Often the experience and achievements described in a resume don&#39;t match at all with the quality of code they send through to us. So either they&#39;re telling big fat resume lies, or there are a lot of people who aren&#39;t getting the results they expect. If you&#39;re in the latter group, this post is for you.</p>
+
+<p><br>
+<div style='border: 2px solid; border-radius: 20px; padding: 10px; text-align: center; width: 75%; margin-left: auto; margin-right: auto; margin-bottom: 10px'>
+<strong>TL;DR</strong>
+<br>
+Consider the person who has to read/run your coding test and do everything you can to make their job easier. Represent your very best professional practices with the code you submit.
+</div>
+<br></p>
+
+<p>The people reading your code test will be working through hundreds of them. If they&#39;re language agnostic with their hires, they&#39;ll be seeing solutions written in a wide variety of languages and demonstrating the entire breadth of the software quality spectrum. The few who submit readable, simple, extendable, reliable and performant applications make it through to the interview stage. Filtering down to these few is an incredibly time-consuming and often very frustrating process. As you write your coding test remember to treat the end users of that test (the hirers) as the very important and time-poor people that they are. Here&#39;s a few methods you can use:</p>
+
+<h3>Read the Instructions, Meet the Requirements</h3>
+
+<p>This may seem obvious, but even the better quality tests we&#39;ve received often leave out a requirement or two. If they say submit your code via a github repo then do it. If they say write an application that takes two parameters, a username and a shoe size, then do that. If they say output .json files do that. If you have questions about the requirements don&#39;t be afraid to ask. When we receive a test that doesn&#39;t meet the straightforward test requirements we lose faith in that candidate&#39;s ability to build code to satisfy our clients&#39; complex and challenging requirements. If you think your best solution can&#39;t meet the requirements then it&#39;s essential to negotiate that before submission, otherwise all you are demonstrating is poor attention to detail or an inability to listen.</p>
+
+<h3>Include a README</h3>
+
+<p>Just because you know how to run your app doesn&#39;t mean the person looking at your test does. They can spend 20 minutes of their precious time reading your source code and reverse engineering it to work out where your main class is and the command to run it. Or you can just tell them. By not spelling it out you are moving your application closer to the reject pile. If you&#39;re doing the test in a language they&#39;re not currently working in then be more explicit with your instructions. If they&#39;re not Rubyists then tell them which version of Ruby to install along with some instructions on how to install it. Likewise C compilers, Java package managers, .NET versioning and so on can all turn into a big time-sink of Googling, reading man pages and frustration. So be considerate, explicit and accurate in your README.</p>
+
+<h3>Write Production-Quality Code</h3>
+
+<p>Write code that is as similar to production-level code as possible, given the constraints on your time. If the coding test is the first stage in the application process, all the hirer knows about you is what you tell them in your code. One giant class named <code>Test</code> with three epic methods named <code>process_1</code>, <code>process_2</code> and <code>process_3</code> and no tests tells us everything we need to know; you aren&#39;t getting anywhere near our precious production code. Likewise, leave out the TODOs. We don&#39;t like them in our code base and they don&#39;t do you any favours in a test. <code>// TODO: Implement error handling</code> is not a selling point for your coding skills. These may seem like extreme examples, but too many of the coding tests we receive look like something hacked together by a second year Comp Sci student pulling an all-nighter, and not the production-quality code we&#39;re looking for.</p>
+
+<h3>Write Tests!</h3>
+
+<p>There aren&#39;t many things that will mean an automatic &quot;no thanks&quot; but lack of tests or extremely sparse or poorly implemented tests are one of them. Reliable code is made so in part by an intelligently-implemented test suite. If you don&#39;t provide one I have to conclude you write code that isn&#39;t that reliable.</p>
+
+<ul>
+<li>Make sure your test makes it easy to identify where the problem in your code is. A simple way to do this is to make only one assertion per test block.</li>
+<li>Unit test where necessary, e.g. complex methods, code we might find obscure or crucial functions. Just to be sure you know what we mean by unit testing: &quot;a unit [is] the smallest testable part of an application<a href="http://en.wikipedia.org/wiki/Unit_testing">&quot;</a> and should mock out interactions with any adjacent classes.</li>
+<li>Integration tests for our coding exercise are optional, but whether to include them or not will depend on the type of test you are doing. If you&#39;re not sure, put them in anyway. So far we haven&#39;t rejected anyone for putting in too many tests.</li>
+<li>Test everything. TDD, BDD, unit, integration - there are different schools of thought on how to best approach testing and most of them have merit. At the end of the day the important thing is that any breaking changes to your code break your tests and clearly identify where the problem is.</li>
+</ul>
+
+<h3>Design an App</h3>
+
+<p>Even the simplest of applications can be split into a data model class, a display/runner class and some logic between the two. Design your solution to be robust, extensible and simple and then we&#39;ll know you can do the same thing for us. Yes, those principles involve trade-offs, and how you make those trade-offs will tell us a lot about what you think is important. Of course your audience will differ, but the best thing you can do is try to strike a balance between them. If you pick one and optimise for that at the expense of the others you&#39;re making assumptions about what we&#39;re looking for that may end up with your code in the reject pile.</p>
+
+<h3>Include Some Error Handling</h3>
+
+<p>Picture this: I run your code from the command line, it exits immediately with no error messages or any other kind of output. If I can, I&#39;ll spend the time inserting random debugging statements into your code in the hope of finding the error. More than likely I won&#39;t have that kind of time to spare, so I put you straight in the reject pile. Help us out by adding some error handling, preferably with stack traces (it&#39;s okay, we&#39;re coders, we can read stack traces) and you&#39;ll greatly increase your chances of making it onto the &quot;interview&quot; pile.</p>
+
+<h3>Pay Attention</h3>
+
+<p>A key quality of a good developer is attention to detail. Here&#39;s a list of detail that some developers thought were not important, but we reckon they are:</p>
+
+<ul>
+<li>don&#39;t hardcode pathnames to your computer</li>
+<li>make sure the app compiles before you send it in</li>
+<li>make sure the app runs before you send it in</li>
+<li>tidy up your spelling everywhere - comments, project names, email, variable names, class names and all of the other places</li>
+<li>use a recent version of your chosen language, not an old one</li>
+<li>don&#39;t abbreviate variable names. We have no idea what <code>c &lt;&lt; a if g</code> means and neither will you in six months</li>
+<li>finish the coding test before you submit it, a partial solution is not enough. If you feel it is taking too long, get in touch and we can negotiate a better submission date.</li>
+</ul>
+
+<p>Going for a job is a nerve-wracking process; no one likes to be judged. Writing code does have a strong creative element so what appeals to one person isn&#39;t necessarily going to appeal to another. However, it&#39;s my hope that by following these guidelines you can maximise your chances of getting through to the next stage in the hiring process. Have fun and good luck!</p>
+
+<p><strong>Disclaimer:</strong> Of course not all this advice will apply to all coding tests or reviewers so use with a dollop of your own common sense.</p>
+
+  <div class="published_date">
+    <div class="modified_on">08 Aug 2015</div>
+  </div>
+  <div class="share">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="adelsmee">Tweet</a>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES * * */
+      var disqus_shortname = 'chocolatetin';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+</section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+  </body>
+</html>
+
