@@ -14,7 +14,7 @@ Our expectations were pretty low. One of the devs summed up our chances of succe
 
 #### The Process
 
-I started by contacting a bunch of folks to see if anyone was interested. As a team of eight with a strong network in the Melbourne tech community we were able to access about a dozen phone numbers and email addresses of development managers in companies with solid reputations. We were pleasantly surprised at the universally positive responses. During the initial conversation most managers were hesitant, however after thinking about the benefits of getting a full stack team who worked well together with a strong focus on process and quality all of them saw the potential benefits pretty quickly. I would also imagine that since the cost of recruitment is so high managers are happy with the direct approach as it saves them a packet.
+I started by contacting a bunch of folks to see if anyone was interested. As a team of eight with a strong network in the Melbourne tech community we were able to access about a dozen phone numbers and email addresses of development managers in companies with solid reputations. We were pleasantly surprised at the universally positive responses. During the initial conversation some managers were hesitant and others like Zendesk immediately saw the value. However all of them soon got excited about getting a full stack team who worked well together with a strong focus on process and quality. I also imagine that since the cost of recruitment is so high managers are happy with the direct approach as it saves them a packet.
 
 I followed the first contact with an in-person or Hangout conversation to discuss the breakdown of the team, individual skills and to answer any questions they had. We also discussed the realistic possiblity of their company being able to offer the entire team a position - as our goal was to try to stay together this was initially one of the key criteria. Only one of the companies was unable to consider offering the entire team positions and that was more a matter of timing than anything else.
 
@@ -28,7 +28,7 @@ The interviews were gruelling and taxing and exciting as per usual. There was de
 
 #### The Outcome
 
-Of the team of eight all were offered roles at at least one of the two companies. Four engineers chose Zendesk as being the best fit for them. Three engineers chose Envato as being the best fit for them. One engineer decided to decline the offer and stay on at the original company for a couple more months to get a redundancy package. I'd have loved to keep working with all of the guys and I'd have loved it even more if everyone had walked away happy, but from my persepective it was a success, albeit a qualified success.
+Of the team of eight all were offered roles at Zendesk and most also received offers from Envato. Four engineers chose Zendesk as being the best fit for them. Three engineers chose Envato as being the best fit for them. One engineer decided to decline the offer and stay on at the original company for a couple more months to get a redundancy package. I'd have loved to keep working with all of the guys and I'd have loved it even more if everyone had walked away happy, but from my persepective it was a success, albeit a qualified success.
 
 #### What Worked
 
