@@ -1,7 +1,7 @@
 ---
 layout : post
 title : The Time We Looked For Work as a Software Development Team
-excerpt: After being laid off as a team we thought we'd try looking for work together. Here's how we did it, what happened.
+excerpt: After being laid off as a team we thought we'd try looking for work together. Here's how we did it and what happened.
 ---
 
 #### The Backstory
