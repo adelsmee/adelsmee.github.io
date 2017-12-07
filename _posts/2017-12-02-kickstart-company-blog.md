@@ -1,6 +1,7 @@
 ---
 layout : post
 title : How To Kickstart Your Company Blog
+excerpt: Everyone wants a blog but no-one wants to volunteer to write for it. Here's how to practice the art of gentle encouragement.
 ---
 
 *This post was first published on the [Zendesk Engineering blog](https://medium.com/zendesk-engineering/how-to-kickstart-your-company-blog-eacbc604b834)*

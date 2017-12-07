@@ -1,6 +1,7 @@
 ---
 layout : post
 title : We Need to Stop Being Short Sighted and Start Hiring Junior Software Engineers Now
+excerpt: The tech industry is backing itself into the corner of a massive skills shortage, in part by not helping junior engineers enter the industry. Here's how you can.
 ---
 
 *This post was first published on the [Zendesk Engineering blog](https://medium.com/zendesk-engineering/we-need-to-stop-being-short-sighted-and-start-hiring-junior-software-engineers-now-67278ce387e9)*

@@ -1,6 +1,7 @@
 ---
 layout : post
 title : So This Is What It Feels Like
+excerpt: I go to the Grace Hopper Celebration for the first time.
 ---
 
 *This post was first published on the [Zendesk Engineering blog](https://medium.com/zendesk-engineering/so-this-is-what-it-feels-like-56c052c27746)*
