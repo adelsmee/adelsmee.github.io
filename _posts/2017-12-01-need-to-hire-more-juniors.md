@@ -3,6 +3,8 @@ layout : post
 title : We Need to Stop Being Short Sighted and Start Hiring Junior Software Engineers Now
 ---
 
+*This post was first published on the [Zendesk Engineering blog](https://medium.com/zendesk-engineering/we-need-to-stop-being-short-sighted-and-start-hiring-junior-software-engineers-now-67278ce387e9)*
+
 Last year as I was working on a conference talk, I came across this labour market research conducted by the Australian Department of Employment on IT professions. The research found the rather shocking statistic that 45% of all senior “Developer Programmer and Analyst Programmer” positions are going unfilled while that number was 47% for senior Web Developers. While we don’t feel this so badly at Zendesk given our amply stocked kitchens, juicy technology challenges and strong focus on a pleasant and respectful working environment, it is never a given that hiring at that level is going to be fast or easy. What really got me in the report though, was this sentence:
 
 > graduate outcomes for students studying in the field of Computer Science (which includes the vast majority of students studying in the Information Technology field of education) have been declining for four consecutive years
