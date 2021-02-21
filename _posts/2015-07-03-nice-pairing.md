@@ -150,6 +150,32 @@ Can't keep digitally still. Constantly flicking between windows, highlighting ra
    * If watching a Twitcher twitch you are allowed to ask them to please stop.
 
 <div class="archetype_image">
+  <img src="https://tse2.mm.bing.net/th?id=OIP.o_qilHlVihFqdkjl1dzc3QAAAA&pid=Api" alt="Stow Away Beer" />
+</div>
+##### The Stow Away
+Sits back and lets the other person do all the thinking, typing and talking. 
+
+ * **Highlights:** If you love a captive audience, I guess it's nice to have someone to watch you work?
+
+ * **Lowlights:** This isn't really pairing.
+
+ * **Check Yourself:**
+   * If you are pairing with someone and feel that you can't contribute then maybe you need to do a bit more research/study before you pair. Or maybe you need to ask more questions - pairing isn't about having all the answers, it's about two people collaborating to produce a solution and it's important both of you understand. If you're a bit nervous about driving, try using pomodoro to share the keyboard. And remember - you aren't expected to get it right the first time, and no-one has all the answers, your job is to have a go and see what works!
+
+<div class="archetype_image">
+  <img src="https://tse3.mm.bing.net/th?id=OIP.GaoYjnl_VDchqvNMZUkkvAHaE8&pid=Api" alt="Private Benjamin" />
+</div>
+##### The Private
+Waits with their fingers on the keyboard to be told what to type. Expects their pair to have all the answers.
+
+ * **Highlights:** If you hate typing, find a Private to pair with!
+
+ * **Lowlights:** This isn't really pairing.
+
+ * **Check Yourself:**
+   * Pairing is a collaboration. It's for two people to create a solution together, even if one person knows a lot more than the other. If you are waiting for the other pair to tell you what to type, pass the keyboard over to them. If it's your turn to type, first have a conversation about what you are doing, so that you work out what to type for yourself. If you are just taking dicatation that's a sign that you need to understand more, before you start smashing out code...
+
+<div class="archetype_image">
   <img src="http://www.insanejournal.com/userpic/12585015/608124" alt="Professor McGonagall" />
 </div>
 ##### The Constant Corrector
