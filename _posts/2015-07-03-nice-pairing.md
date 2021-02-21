@@ -61,7 +61,7 @@ Very supportive, engaged pair who thinks almost everything his pair does is awes
    * If driving with a cheerleader navigator ask them for critiques, not just encouragement.
 
 <div class="archetype_image">
-  <img src="http://www.mmii.info/icons/JKid/cartoons_brain.gif" alt="cheerleader" />
+  <img src="https://tse3.mm.bing.net/th?id=OIP.wZsHFPT0zdnqNsyKh5DBZwAAAA&pid=Api" alt="big brain" />
 </div>
 ##### The Brainiac
 Knows she is the smartest person in the room, and by certain measures probably is. An expert on the tools and technologies under development.
@@ -76,7 +76,7 @@ Knows she is the smartest person in the room, and by certain measures probably i
    * Limit your pairing time with a Brainiac. Coding is not a spectator sport, you will only learn so much by watching.
 
 <div class="archetype_image">
-  <img src="https://www.dashlane.com/images/app/badges/X_REGISTRATIONS.png" alt="the newbie" />
+  <img src="https://tse2.mm.bing.net/th?id=OIP.j5733QWTCjcM6jdi-xudhQAAAA&pid=Api" alt="the newbie" />
 </div>
 ##### The N00b
 A newcomer to the codebase, or coding, or someone who knows less than his pair.
@@ -107,7 +107,7 @@ Has to show you the latest YouTube/Wiki/HN/Twitter video/article/tweet/pic/site/
    * Use [pomodoro](http://pomodorotechnique.com/) to schedule in surfing downtime.
 
 <div class="archetype_image">
-  <img src="https://yt3.ggpht.com/-bBCodrl5wKA/AAAAAAAAAAI/AAAAAAAAAAA/CKwEIXXGc6k/s100-c-k-no/photo.jpg" alt="the rock" />
+  <img src="https://tse4.mm.bing.net/th?id=OIP.npMQTYr9Rsf-voM_4kw_mQHaEc&pid=Api" alt="the rock" />
 </div>
 ##### The Rock
 Has read everything on OOD, BDD, DDD, TDD, FP, XP and all the other acronyms. Writes code that always conforms to the latest and best standards.
@@ -204,7 +204,7 @@ Assumes her position at the keyboard and begins to code. Nothing gets in or out,
    * If you can't crack the Vault and you can't get the keyboard off her, find another pair.
 
 <div class="archetype_image">
-  <img src="http://blogs-images.forbes.com/insead/files/2011/09/Vacant.jpg" alt="vacant" width="80px" height="80px" />
+  <img src="https://tse4.mm.bing.net/th?id=OIP.cIrARSAIg73FuVKTfsGqbgHaHe&pid=Api" alt="vacant" width="80px" height="80px" />
 </div>
 ##### The Vacancy
 It is 4pm on a Friday, you are going to the beach for the weekend and have remembered you forgot to pack your towel. Also you didn't get much sleep last night and you're hungry. Oh, and you've got the flu and you are hungover. The person sitting next to you is programming, but you are not.
