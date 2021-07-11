@@ -5,6 +5,8 @@ safe: true
 lsi: false
 github: github/adelsmeeå
 url: chocolatetin.org
+gems:
+  - jekyll-feed
 author:
   display_name: Adel Smee
   web: https://coderwall.com/adelsmee
